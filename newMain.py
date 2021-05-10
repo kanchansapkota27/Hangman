@@ -118,6 +118,6 @@ if __name__=='__main__':
     window.title('Hangman')
     filePath='./random_words.txt'
     delimiter=';'
-    imagesPath='./newImages'
+    imagesPath='./resources/stages'
     hg=Hangman(window,filePath,delimiter,imagesPath,enable_color_keyboard=False)
     window.mainloop()
