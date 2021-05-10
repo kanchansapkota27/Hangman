@@ -88,11 +88,6 @@ class Hangman:
                 self.window.destroy()
 
 
-
-
-    def get_random_word(self):
-        pass
-
     def get_words(self):
         with open(self.filePath,'r',encoding='utf-8') as f:
             words=f.read()
